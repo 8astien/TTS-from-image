@@ -25,6 +25,7 @@ Renseignez le chemin : ``assets/1.png``
 Dans un premier temps, on utilise ``easyocr`` pour extraire les caractères de l'image. On assigne ensuite à chaque lettre extraite un code lui correspondant, et on construit un spectrogramme à partir des données récoltées. 
 
 ![enter image description here](https://i.ibb.co/bvk6H94/Figure-1.png)
+
 Une fois le spectrogramme généré, le programme va le convertir en fichier audio (*fermez la preview du spectogramme pour générer le fichier*).
 
 Le fichier ``tts.wav`` sera généré à la racine de votre dossier.
@@ -37,4 +38,4 @@ Néanmoins, le Français et bien d'autres langages sont bien reconnus par easyOC
 - Certaines polices de caractères sont mal reconnues par easyOCR, c'est le cas avec le fichier ``1.png`` du dossier assets.
 
 - Certains sites empêchent le téléchargement d'images et vous pouvez rencontrer une erreur lorsque vous renseignez une URL. 
-# TTS-from-image
+
